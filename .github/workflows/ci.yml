@@ -21,4 +21,5 @@ jobs:
       - name: Run a simple command
         run: |
           set -e
-          echo "Hello, this is a simple CI pipeline!" error
+          echo "Hello, this is a simple CI pipeline!"
+          cat error.txt
