@@ -22,5 +22,5 @@ jobs:
         run: |
           set -e
           echo "Hello, this is a simple CI pipeline!"
-          cat error
+          
          
